@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Tribute page fore Daisy Johnson AKA Quake" />
+    <title id="title">Tribute page</title>
+    <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+    <header>
+      <img id="logo" alt="Marvel logo" src="https://upload.wikimedia.org/wikipedia/commons/b/b9/Marvel_Logo.svg">
+      <h1>Tribute Page <br/>Daisy Johnson AKA "Quake"</h1></div><br/>
+      </header>
+  <main id="main">
+   <fieldset id="info" class="image">
+     <div id="img-div" class="image-container">
+  <img src="https://oyster.ignimgs.com/wordpress/stg.ign.com/2015/08/Chloe-B-Marvel.jpg" alt="Daisy Johnson AKA Quake" id="image">
+  <figcaption id="img-caption">Daisy Johnson AKA Quake</figcaption>
+  </div>
+  <div class="text-container">
+    <p id="tribute-info" class="tribute-info"> Daisy is first introduced as a genius hacker. She was raised at Saint Agnes Orphanage and was given the name Mary Sue Poots. Daisy hated this name and created the alias Skye, she hated S.H.I.E.L.D. until she learned what they really stood for. During her time at S.H.I.E.L.D. she learned who her true parents were. Jiaying an inhuman leader who hated humans due to her past, and her human father Calvin Johnson. Daisy learned her true birth name was Daisy Johnson and changed it later in the series.</p>
+  </div>   
+</div>
+<div>
+     <a id="tribute-link" class="link" href="https://marvelcinematicuniverse.fandom.com/wiki/Quake" target="_blank" >Click here for more information</a>
+     </div>
+     </fieldset>
+    </main>
+    <footer></footer>
+    </body>
+    </html>
