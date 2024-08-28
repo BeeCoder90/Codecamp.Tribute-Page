@@ -1,15 +1,42 @@
 html{
-  background-color: #17202a
+  background-color: #17202a;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 header {
+  display: flex;
   width: 100%;
   height: 180px;
   background-color: #c0392b;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
   position: fixed;
   top: 0;
+}
+@media only screen and (max-width: 600px){
+  header{
+    height: 90px;
+  }
+}
+.htitle{
+  font-size: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media only screen and (max-width: 600px){
+  .htitle{
+    font-size: 30px;
+  }
+}
+h1{
+  font-size: 70px;
+  text-decoration: underline;
+  font-weight:700;
+}
+@media only screen and (max-width: 600px){
+  h1{
+    font-size: 20px;
+  }
 }
 #logo {
   background-color: #fbfcfc;
@@ -19,19 +46,24 @@ header {
   width: max(10rem, 18vw);
   margin-left: 25px;
 }
+@media only screen and (max-width: 600px){
+  #logo{
+    width: max(6rem, 10vw);
+  }
+}
 body{
   color: #17202a;
+  margin: 0;
 }
 main{
   padding-top: 180px;
   background-color: #154360;
   color: #ecf0f1;
 }
-h1{
-  display: block;
-  text-align: center;
-  font-size: 40px;
-  padding-right: 370px;
+@media only screen and (max-width: 600px){
+  main{
+    padding-top: 90px;
+  }
 }
 img {
   display: block;
@@ -46,6 +78,12 @@ figcaption{
   margin-left: 0 auto;
   text-align: center;
   float: center;
+  font-size: 60px;
+}
+@media only screen and (max-width: 600px){
+  .text-container{
+    font-size: 30px;
+  }
 }
 .link{
   display: block;
