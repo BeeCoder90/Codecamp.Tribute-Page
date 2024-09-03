@@ -49,6 +49,7 @@ h1{
 @media only screen and (max-width: 600px){
   #logo{
     width: max(6rem, 10vw);
+    margin-left:0;
   }
 }
 body{
